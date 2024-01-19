@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2" level="2" version="1">
+  <model id="metabolites">
+    <listOfSpecies>
+      <species id="M_K__43___c" name="K+" compartment="c"/>
+      <species id="M_L__45__ASPARTATE_c" name="L-ASPARTATE" compartment="c"/>
+      <species id="M_WATER_c" name="WATER" compartment="c"/>
+      <species id="M_ALPHA__45__GLUCOSE_c" name="ALPHA-GLUCOSE" compartment="c"/>
+      <species id="M_THIAMINE_c" name="THIAMINE" compartment="c"/>
+      <species id="M_PYRIDOXAL_PHOSPHATE_c" name="PYRIDOXAL_PHOSPHATE" compartment="c"/>
+      <species id="M_NIACINE_c" name="NIACINE" compartment="c"/>
+      <species id="M_ARABINOSE_c" name="ARABINOSE" compartment="c"/>
+      <species id="M_TYR_c" name="TYR" compartment="c"/>
+      <species id="M_CU__43__2_c" name="CU+2" compartment="c"/>
+      <species id="M_LUTEIN_c" name="LUTEIN" compartment="c"/>
+      <species id="M_LEU_c" name="LEU" compartment="c"/>
+      <species id="M_PRO_c" name="PRO" compartment="c"/>
+      <species id="M_ARG_c" name="ARG" compartment="c"/>
+      <species id="M_L__45__ASCORBATE_c" name="L-ASCORBATE" compartment="c"/>
+      <species id="M_SULFATE_c" name="SULFATE" compartment="c"/>
+      <species id="M_PANTOTHENATE_c" name="PANTOTHENATE" compartment="c"/>
+      <species id="M_CPD__45__15332_c" name="CPD-15332" compartment="c"/>
+      <species id="M_GLY_c" name="GLY" compartment="c"/>
+      <species id="M_MG__43__2_c" name="MG+2" compartment="c"/>
+      <species id="M_SER_c" name="SER" compartment="c"/>
+      <species id="M_phylloquinone_c" name="phylloquinone" compartment="c"/>
+      <species id="M_ETOH_c" name="ETOH" compartment="c"/>
+      <species id="M_CARBON__45__DIOXIDE_c" name="CARBON-DIOXIDE" compartment="c"/>
+      <species id="M_MET_c" name="MET" compartment="c"/>
+      <species id="M_FE__43__3_c" name="FE+3" compartment="c"/>
+      <species id="M_ZN__43__2_c" name="ZN+2" compartment="c"/>
+      <species id="M_RHAMNOSE_c" name="RHAMNOSE" compartment="c"/>
+      <species id="M_octadecanoate_c" name="octadecanoate" compartment="c"/>
+      <species id="M_CPD__45__22421_c" name="CPD-22421" compartment="c"/>
+      <species id="M_octadecatrienoate_c" name="octadecatrienoate" compartment="c"/>
+      <species id="M_hexadecanoate_c" name="hexadecanoate" compartment="c"/>
+      <species id="M_ALA_c" name="ALA" compartment="c"/>
+      <species id="M_NITRATE_c" name="NITRATE" compartment="c"/>
+      <species id="M_FOLATE_c" name="FOLATE" compartment="c"/>
+      <species id="M_MANNOSE_c" name="MANNOSE" compartment="c"/>
+      <species id="M_ADP_c" name="ADP" compartment="c"/>
+      <species id="M_HIS_c" name="HIS" compartment="c"/>
+      <species id="M_FE__43__2_c" name="FE+2" compartment="c"/>
+      <species id="M_CPD__45__18500_c" name="CPD-18500" compartment="c"/>
+      <species id="M_NADP_c" name="NADP" compartment="c"/>
+      <species id="M_MN__43__2_c" name="MN+2" compartment="c"/>
+      <species id="M_NA__43___c" name="NA+" compartment="c"/>
+      <species id="M_P_c" name="P" compartment="c"/>
+      <species id="M_PROTON_c" name="PROTON" compartment="c"/>
+      <species id="M_LYS_c" name="LYS" compartment="c"/>
+      <species id="M_XYLOSE_c" name="XYLOSE" compartment="c"/>
+      <species id="M_THR_c" name="THR" compartment="c"/>
+      <species id="M_RIBOFLAVIN_c" name="RIBOFLAVIN" compartment="c"/>
+      <species id="M_ZEAXANTHIN_c" name="ZEAXANTHIN" compartment="c"/>
+      <species id="M_SELENATE_c" name="SELENATE" compartment="c"/>
+      <species id="M_ALPHA__45__TOCOPHENOL_c" name="ALPHA-TOCOPHENOL" compartment="c"/>
+      <species id="M_TRP_c" name="TRP" compartment="c"/>
+      <species id="M_LINOLEIC_ACID_c" name="LINOLEIC_ACID" compartment="c"/>
+      <species id="M_CA__43__2_c" name="CA+2" compartment="c"/>
+      <species id="M_CPD__45__22926_c" name="CPD-22926" compartment="c"/>
+      <species id="M_GALACTOSE_c" name="GALACTOSE" compartment="c"/>
+      <species id="M_CHOLINE_c" name="CHOLINE" compartment="c"/>
+      <species id="M_L__45__GLUTAMATE__45__5__45__P_c" name="L-GLUTAMATE-5-P" compartment="c"/>
+      <species id="M_BETA__45__CAROTENE_c" name="BETA-CAROTENE" compartment="c"/>
+      <species id="M_L__45__FUCOSE_c" name="L-FUCOSE" compartment="c"/>
+      <species id="M_Arabinoxylan_c" name="Arabinoxylan" compartment="c"/>
+      <species id="M_ILE_c" name="ILE" compartment="c"/>
+      <species id="M_NAD_c" name="NAD" compartment="c"/>
+      <species id="M_Starch_c" name="Starch" compartment="c"/>
+      <species id="M_PHE_c" name="PHE" compartment="c"/>
+    </listOfSpecies>
+  </model>
+</sbml>
