@@ -3,8 +3,8 @@ Genome-scale metabolic network analysis of chicken microbiota for microbiome sim
 
 # Relevant files
 
-**snakefile:** pipeline for generating genome-scale metabolic networks.
-**seeds.sbml:** gut microbiota seed file for GSMN analyses.
+- **snakefile:** pipeline for generating genome-scale metabolic networks.
+- **seeds.sbml:** gut microbiota seed file for GSMN analyses.
 
 # Pipeline
 
@@ -38,7 +38,20 @@ snakemake \
 
 ## 2- Generate community scopes
 ```sh
+# Creat sbatch executable
+cat <<EOF > community_scopes.sh
+#!/bin/bash
+#SBATCH --job-name=community_scopes
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --mail-user=antton.alberdi@sund.ku.dk
+#SBATCH --mem=128gb
+#SBATCH --time=4:00:00
+mkdir scopes
+module load pathway-tools/27.0 blast/2.13.0 metage2metabo/1.5.3
+m2m iscope -n genomes -s seeds.sbml -o scopes
+EOF
 
-
-
+#Launch sbatch
+sbatch community_scopes.sh
 ```
