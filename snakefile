@@ -82,8 +82,6 @@ rule emapper2gbk:
         file="genomes/{sample}/{sample}/{sample}.gbk"
     params:
         jobname="{sample}.gb"
-    conda:
-        "environment.yml"
     threads:
         1
     resources:
