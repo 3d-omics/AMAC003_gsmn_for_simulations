@@ -30,7 +30,7 @@ wget [MAG files]
 
 # Run snakemake pipeline
 snakemake \
-  -j 20 \
+  -j 50 \
   --cluster 'sbatch -o logs/{params.jobname}-slurm-%j.out --mem {resources.mem_gb}G --time {resources.time} -c {threads} --job-name={params.jobname} -v' \
   --use-conda --conda-frontend mamba --conda-prefix conda \
   --latency-wait 600
